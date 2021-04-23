@@ -20,4 +20,3 @@ jobs:
         with:
           push: true
           tags: ghcr.io/miner3210/bookinfo_ratings:dev
-
