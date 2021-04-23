@@ -19,6 +19,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: miner3210/bookinfo-ratings:dev
+          tags: bookinfo-ratings:dev
           secrets: |
             GIT_AUTH_TOKEN=${{ secrets.GITHUB_TOKEN }}
