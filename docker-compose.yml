@@ -1,8 +1,7 @@
 services:
   ratings:
     build: .
-<<<<<<< HEAD
-    image: ghcr.io/miner3210/bookinfo-ratings:prd
+    image: ghcr.io/miner3210/bookinfo-ratings:dev
     ports:
       - "8080:8080"
     environment:
@@ -12,10 +11,3 @@ services:
     image: bitnami/mongodb:4.4.4-debian-10-r5
     volumes:
       - "./databases:/docker-entrypoint-initdb.d"
-=======
-    image: ghcr.io/[Miner3210]/bookinfo-ratings:dev
-    ports:
-      - "8080:8080"
-    environment:
-      SERVICE_VERSION: v1
->>>>>>> origin/dev
