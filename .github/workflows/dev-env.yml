@@ -43,6 +43,6 @@ jobs:
           values: |
             {
               "extraEnv": {
-                "COMMIT_ID": "${{ github.sha }}"
+                "COMMIT_SHA": "${{ github.sha }}"
               }
             }
